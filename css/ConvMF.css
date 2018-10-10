@@ -1,0 +1,200 @@
+/*!
+ * Start Bootstrap - Grayscale v1.1.0 (http://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+body {
+  /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  padding-top: 70px;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  /*font-family: 'Kalam', cursive;*/
+  font-weight: 700;
+}
+.supsub {position: absolute}
+.subscript {display:block; position:relative; left:2px; top: -5px}
+.superscript {display:block; position:relative; left:2px; top: -5px}
+a {
+  color: #1d9b6c;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #42DCA3;
+}
+figure {
+  margin-bottom: 20px;
+}
+.light {
+  font-weight: 400;
+}
+.navbar-custom {
+  background-color: black;
+  font-weight: 700;
+  padding: 0;
+}
+.navbar-custom .navbar-toggle {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: black;
+  font-size: 20px;
+  border-color: black;
+  outline: none;
+  padding: 0;
+  vertical-align: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
+  background-color: black;
+  color: #42DCA3;
+  outline: none;
+}
+.navbar-custom .navbar-brand {
+  color: #42DCA3;
+  font-family: 'Kalam', cursive;
+  font-size: 24px;
+}
+.navbar-custom .navbar-brand:focus {
+  outline: none;
+}
+.navbar-custom .nav li a {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  /*background-color: rgba(255, 255, 255, 0.3);*/
+  outline: none;
+  color: #42DCA3;
+}
+.navbar-custom .nav li.active,
+.navbar-custom .nav li.active a,
+.navbar-custom .nav li.active a:hover {
+  /*background-color: rgba(255, 255, 255, 0.3);*/
+  color: #42DCA3;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 5px 0;
+  }
+  .navbar-custom .navbar-toggle {
+    font-size: 24px;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 32px;
+  }
+}
+.title {
+  padding-top: 100px;
+  text-align: center;
+}
+.title .title-body {
+  margin: 0;
+}
+.author {
+  padding-top: 32px;
+  text-align: center;
+}
+.author .author-name {
+  margin: 0;
+}
+.author .author-aff {
+  line-height: 0.8;
+  margin: 0;
+}
+.content-section {
+  padding-top: 50px;
+}
+.content-section hr {
+  border-color: #1d9b6c;
+  border-width: 2px;
+  max-width: 100%;
+  margin: 0 0 12px;
+}
+.abstract {
+  
+}
+.abstract .abstract-body {
+  font-size: 16px;
+}
+.overview blockquote {
+  border-width: 1px 1px 1px 5px;
+  border-style: solid;
+  border-color: #ddd #ddd #ddd #1d9b6c;
+  border-left-color: #1d9b6c;
+  margin: 0px 10px 20px;
+  font-size: 14px;
+}
+.overview img {
+  width: 95%;
+  margin: 0px auto 10px;
+}
+.overview figcaption {
+  padding: 10px 20px 10px;
+  font-size: 15px;
+  word-wrap: break-word;
+}
+.experiment blockquote {
+  border-width: 1px 1px 1px 5px;
+  border-style: solid;
+  border-color: #ddd #ddd #ddd #1d9b6c;
+  border-left-color: #1d9b6c;
+  margin: 0px 10px 20px;
+  font-size: 14px;
+}
+.experiment .subtitle {
+  font-size: 15px;
+}
+.experiment .rmse .table td,
+.experiment .rmse .table th {
+  text-align: center;
+}
+.experiment .qual_anal .table td, 
+.experiment .qual_anal .table th {
+  text-align: center;
+}
+img {
+  width: 80%;
+}
+@media (min-width: 768px) {
+  .data_stat {
+    width: 80%;
+  }
+  .various_sparse {
+    width: 50%;
+  }
+  .embedding_plot {
+    width: 90%;
+  }
+  .lambda_plot {
+    width: 100%;
+  }
+}
+footer {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.table {
+  margin-bottom: 0;
+}
+.experiment .table-responsive {
+  margin: 0px 10px 20px;
+}
